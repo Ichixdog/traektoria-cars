@@ -1,0 +1,19 @@
+.car-card{
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 0px 5px 0px;
+    .edit-mode{
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    .view-mode{
+        .main-actions{
+            display: flex;
+            gap: 5px;
+            margin: 5px 0 5px 0;
+        }
+    }
+}
